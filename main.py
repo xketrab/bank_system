@@ -18,7 +18,7 @@ while True:
         print("=-=-=-=-LOGGING PAGE-=-=-=-=\n")
         l = str(input("Enter your login: "))
         p = str(input("Enter your password: "))
-            
+
         with open("data.txt", encoding="utf-8", mode="r") as file:
                 temp_data = file.readlines()
                 temp_logins = [""] * len(temp_data)
@@ -125,11 +125,11 @@ while True:
                                     print("\nERROR: Password is incorrect!")
                                     print("Cancelling...")
                                     sleep(2)
-                            
+
                             if ans == "N" or ans == "n":
                                 print("\nCancelling...")
                                 sleep(2)
-                                
+
                         case 8:
                             print("\nGoodbye!")
                             sleep(2)
@@ -163,7 +163,7 @@ while True:
                 if len(temp_logins) == 0:
                     con = True
                 break
-   
+
         print("\nYour login: " + str(l) + "\nYour password: " + str(p) + "\nYour ID: " + str(id) + "\nYour balance: " + str(b))
         input("\nIf the information above is good, press ENTER.")
         print("\nCreating account...")
@@ -176,8 +176,3 @@ while True:
 
     if option == "Q" or option == "q":
         break
-
-
-
-
-

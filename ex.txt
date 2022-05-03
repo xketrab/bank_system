@@ -1,4 +1,0 @@
-Ryszard:Kowalski:1:100
-Arlon:dw:2:124
-Urszyla:cabello:3:1000
-Yuti:oiii:4:900
